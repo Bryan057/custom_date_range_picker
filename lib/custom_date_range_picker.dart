@@ -111,7 +111,7 @@ class CustomDateRangePickerState extends State<CustomDateRangePicker>
                               crossAxisAlignment: CrossAxisAlignment.center,
                               children: <Widget>[
                                 Text(
-                                  'From',
+                                  'Démarre le',
                                   textAlign: TextAlign.left,
                                   style: TextStyle(
                                     fontWeight: FontWeight.w400,
@@ -147,7 +147,7 @@ class CustomDateRangePickerState extends State<CustomDateRangePicker>
                               crossAxisAlignment: CrossAxisAlignment.center,
                               children: <Widget>[
                                 Text(
-                                  'To',
+                                  'Termine le',
                                   style: TextStyle(
                                     fontWeight: FontWeight.w400,
                                     fontSize: 16,
@@ -234,7 +234,7 @@ class CustomDateRangePickerState extends State<CustomDateRangePicker>
                                     },
                                     child: const Center(
                                       child: Text(
-                                        'Cancel',
+                                        'Annuler',
                                         style: TextStyle(
                                           fontWeight: FontWeight.w500,
                                           fontSize: 18,
@@ -277,7 +277,7 @@ class CustomDateRangePickerState extends State<CustomDateRangePicker>
                                     },
                                     child: const Center(
                                       child: Text(
-                                        'Apply',
+                                        'Confirmer',
                                         style: TextStyle(
                                             fontWeight: FontWeight.w500,
                                             fontSize: 18,
