@@ -124,7 +124,7 @@ class CustomDateRangePickerState extends State<CustomDateRangePicker>
                                 ),
                                 Text(
                                   startDate != null
-                                      ? DateFormat('EEE, dd MMM')
+                                      ? DateFormat('EEE, dd MMM',  'fr_FR')
                                           .format(startDate!)
                                       : '--/-- ',
                                   style: TextStyle(
@@ -159,7 +159,7 @@ class CustomDateRangePickerState extends State<CustomDateRangePicker>
                                 ),
                                 Text(
                                   endDate != null
-                                      ? DateFormat('EEE, dd MMM')
+                                      ? DateFormat('EEE, dd MMM', 'fr_FR')
                                           .format(endDate!)
                                       : '--/-- ',
                                   style: TextStyle(
